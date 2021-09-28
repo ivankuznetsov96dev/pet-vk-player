@@ -1,0 +1,6 @@
+{
+	"appId": "com.kuznetsov.dev",
+	"appName": "pet-vk-player",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

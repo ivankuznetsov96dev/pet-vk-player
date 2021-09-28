@@ -1,0 +1,29 @@
+<ion-header collapse="condense" [translucent]="true">
+  <ion-toolbar>
+    <ion-item>
+      <ion-button size="small" (click)="menuToggle()">
+        <ion-icon name="menu"></ion-icon>
+      </ion-button>
+      <ion-input type="text" [placeholder]="placeholderText">
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-input>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <strong>Ready to create an app?</strong>
+    <p>
+      Start with Ionic
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://ionicframework.com/docs/components"
+        >UI Components</a
+      >
+    </p>
+  </div>
+
+  <span>Kuznec test</span>
+</ion-content>

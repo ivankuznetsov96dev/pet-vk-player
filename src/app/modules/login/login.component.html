@@ -1,0 +1,16 @@
+<ion-content [fullscreen]="true">
+  <div id="container">
+    <form [formGroup]="loginForm">
+      <strong>Login in VK account</strong>
+      <ion-label for="loginID">
+        <ion-input type="text" id="loginID"></ion-input>
+      </ion-label>
+      <ion-label for="passwordID">
+        <ion-input type="text" id="passwordID"></ion-input>
+      </ion-label>
+      <ion-button color="primary" expand="block" (click)="loggedIn()"
+        >Logged In</ion-button
+      >
+    </form>
+  </div>
+</ion-content>

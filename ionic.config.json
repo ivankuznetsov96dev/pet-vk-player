@@ -1,0 +1,7 @@
+{
+  "name": "pet-vk-player",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
